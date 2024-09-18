@@ -12,17 +12,18 @@ h1, h2 {
 
 h2 {
   margin-left: 3%;
+  font-size: xx-large;
 }
 
 .title {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
 }
 
 .book-container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   margin: 3%;;
   border-radius: 20px;
   border: aliceblue 2px solid;
@@ -41,11 +42,30 @@ h2 {
 }
 
 .book-image {
-  width: 50;
-  height: 50;
   object-fit: contain;
   border-radius: 10px;
   
+}
+
+.banner-container {
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 10px;
+  height: 200px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.banner-container > p {
+  color:#2f5288;
+  font-size: 5em;
+  margin: 4%;
+}
+
+.banner-container > img {
+  width: 100px;
+  height: 200px;
+  object-fit: contain;
 }
 
 .button {
